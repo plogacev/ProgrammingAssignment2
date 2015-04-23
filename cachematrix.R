@@ -33,6 +33,8 @@ cacheSolve <- function(x, ...) {
   inv
 }
 
-x <- makeCacheMatrix(matrix(1:4, nrow=2))
-cacheSolve(x)
+## Test:
+# x <- makeCacheMatrix(matrix(1:4, nrow=2))
+# cacheSolve(x)
+# cacheSolve(x)
 
